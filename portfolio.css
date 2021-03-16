@@ -301,6 +301,11 @@
   .pf-view {
     margin: 15vh auto 0;
   }
+  .pf-img>img {
+    margin: 27vh 0 0 0;
+    float: right;
+    box-shadow: 5px 5px 10px #9BAEBC;
+  }
 }
 @media screen and (max-width:767px) {
   .main-img {
