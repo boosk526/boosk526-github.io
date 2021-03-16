@@ -41,6 +41,21 @@ $(window).scroll(function() {
   }
 });
 
+if ($(window).width() < 480) {
+  $(".chart").show()
+  $('.chart').easyPieChart({
+    barColor: '#72C7C5', //차트가 그려질 색
+    trackColor: '#4F5A6D', // 차트가 그려지는 트랙의 기본 배경색(chart1 의 회색부분)
+    scaleColor: '#87ADB9', // 차트 테두리에 그려지는 기준선 (chart2	의 테두리 선)
+    lineCap: 'round', // 차트 선의 모양 chart1 butt / chart2 round / chart3 square
+    lineWidth: 10, // 차트 선의 두께
+    size: 80, // 차트크기
+    animate: 1000, // 그려지는 시간
+    onStart: $.noop,
+    onStop: $.noop
+  });
+    }
+
 
 $('.bxslider').bxSlider({
   auto: true, // 자동 슬라이드
