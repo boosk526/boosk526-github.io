@@ -368,4 +368,7 @@
   .contact-box{
     border-radius: 0 20px 0 20px;
   }
+  .contact-ul{
+    padding: 2vh 0 0 0;
+  }
 }
