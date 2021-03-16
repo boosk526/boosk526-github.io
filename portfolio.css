@@ -372,12 +372,12 @@
     padding: 1vh 0 0 0;
   }
   .chart-tt {
-    top: 16vh;
+    top: 18vh;
     font-size: 13px;
   }
   .chart-per {
     text-align: center;
-    top: 10vh;
+    top: 12vh;
     font-size: 12px;
   }
 }
