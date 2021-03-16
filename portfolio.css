@@ -353,15 +353,6 @@
   .pf-view-b{
     margin: 6vh auto 0;
   }
-  .chart-tt {
-    top: 15vh;
-    font-size: 14px;
-  }
-  .chart-per {
-    text-align: center;
-    top: 8vh;
-    font-size: 13px;
-  }
 }
 @media screen and (max-width:480px) {
   .typing {
