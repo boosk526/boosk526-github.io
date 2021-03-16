@@ -181,7 +181,7 @@
   width: 70%;
   height: 83vh;
   margin: 0 auto;
-        background-color: rgba(230, 244, 241, 0.3);
+  background-color: rgba(230, 244, 241, 0.3);
 }
 .pf-info {
   width: 30%;
@@ -351,10 +351,17 @@
   .pf-view {
     margin: 15vh auto 0;
   }
+
 }
 @media screen and (max-width:480px) {
   .typing {
     font-size: 20px;
-    margin: 27vh 0 0 7%;
+    margin: 27vh 0 0 100px;
+  }
+  .pf-main {
+    width: 70%;
+    height: 83vh;
+    margin: 10vh auto 0;
+    background-color: rgba(230, 244, 241, 0.3);
   }
 }
