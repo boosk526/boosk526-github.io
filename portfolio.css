@@ -371,4 +371,13 @@
   .contact-ul{
     padding: 2vh 0 0 0;
   }
+  .chart-tt {
+    top: 16vh;
+    font-size: 13px;
+  }
+  .chart-per {
+    text-align: center;
+    top: 10vh;
+    font-size: 12px;
+  }
 }
