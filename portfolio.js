@@ -49,7 +49,7 @@ if ($(window).width() < 480) {
     scaleColor: '#87ADB9', // 차트 테두리에 그려지는 기준선 (chart2	의 테두리 선)
     lineCap: 'round', // 차트 선의 모양 chart1 butt / chart2 round / chart3 square
     lineWidth: 15, // 차트 선의 두께
-    size: 90, // 차트크기
+    size: 100, // 차트크기
     animate: 1000, // 그려지는 시간
     onStart: $.noop,
     onStop: $.noop
@@ -72,7 +72,7 @@ $('#HOME').click(function() {
 
 var menuLinks = document.querySelectorAll('.header-li-a');
 
-function clickMenuHandler() { // onclickMenu와 같은 on____ , _____listener, _____handler들은 이벤트 리스너들이라고 할 수 있고, 보통 이런 이름들을 가짐
+function clickMenuHandler() {
   for (var i = 0; i < menuLinks.length; i++) {
     menuLinks[i].classList.remove('menu');
   }
