@@ -347,6 +347,9 @@
     float: left;
     margin: 1vh 0 0 11%;
   }
+  .sub-pf{
+    padding: 8vh 0 3vh 16%;
+  }
   .pf-view {
     margin: 14vh auto 0;
   }
@@ -354,7 +357,7 @@
     margin: 6vh auto 0;
   }
   .pf-img>img {
-    margin: 40vh 0 0 0;
+    margin: 35vh 0 0 0;
     float: right;
     box-shadow: 5px 5px 10px #9BAEBC;
   }
