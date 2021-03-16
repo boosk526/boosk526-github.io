@@ -37,6 +37,9 @@ $(window).scroll(function() {
   }
 });
 
+$(".chart").hide();
+var skillsOffset = $('.education').offset();
+
 if ($(window).width() < 480) {
   $(".chart").show()
   $('.chart').easyPieChart({
