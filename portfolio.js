@@ -1,7 +1,3 @@
-$(".img").click(function(){
-  alert("img click");
-});
-
 var typingBool = false;
 var typingIdx = 0;
 var typingTxt = $(".typing-txt").text(); // 타이핑될 텍스트를 가져온다

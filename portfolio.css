@@ -201,7 +201,6 @@
   width: 65%;
   height: 83vh;
   float: left;
-
 }
 .pf-img>img {
   margin: 7.5vh 0 0 0;
@@ -379,5 +378,43 @@
     text-align: center;
     top: 11vh;
     font-size: 13px;
+  }
+  .sub-pf{
+    padding: 8vh 0 3vh 16%;
+  }
+  .pf-main {
+    width: 70%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: rgba(230, 244, 241, 0.3);
+  }
+  .pf-img>img {
+    margin: 27vh 0 0 0;
+    float: right;
+    box-shadow: 5px 5px 10px #9BAEBC;
+  }
+  .wl-li {
+    font-size: 17px;
+  }
+  .wl-li-in {
+    font-size: 13px;
+  }
+  .wl-li-in-c {
+    font-size: 10px;
+  }
+  .pf-view {
+    border: 1px solid #7DA7C0;
+    font-size: 12px;
+  }
+  .pf-view-b{
+    border: 1px solid #3F8B81;
+  }
+  .pf-view-d{
+    border: 1px solid #6B7176;
+  }
+  .bx-pager{
+    top: 0;
+    left: -35%;
+    margin: 70vh 0 0 0;
   }
 }
