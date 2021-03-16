@@ -16,7 +16,7 @@
   line-height: 7vh;
 }
 .header-li {
-  float: left;
+  display: flex;
   padding: 0 0 0 3%;
   font-size: 13px;
 }
@@ -369,17 +369,13 @@
     border-radius: 0 20px 0 20px;
   }
   .contact-ul{
-    padding: 2vh 0 0 0;
+    padding: 1vh 0 0 0;
   }
   .chart-tt {
-    position: relative;
-    display: block;
     top: 16vh;
     font-size: 13px;
   }
   .chart-per {
-    position: relative;
-    display: block;
     text-align: center;
     top: 10vh;
     font-size: 12px;
