@@ -364,6 +364,8 @@
     width: 70%;
     height: 83vh;
     margin: 10vh auto 0;
-    background-color: rgba(230, 244, 241, 0.3);
+  }
+  .contact-box{
+    border-radius: 0 20px 0 20px;
   }
 }
