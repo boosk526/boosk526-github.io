@@ -12,11 +12,14 @@
   position: fixed;
   z-index: 2;
 }
+.header-menu{
+  display: none;
+}
 .header-ul {
   line-height: 7vh;
+  display: flex;
 }
 .header-li {
-  float: left;
   padding: 0 0 0 3%;
   font-size: 13px;
 }
@@ -370,6 +373,21 @@
   }
 }
 @media screen and (max-width:480px) {
+  .header-menu{
+    align-items: flex-start;
+    display: block;
+  }
+  .header-menu-img{
+    padding: 1vh 0 0 2%;
+  }
+  .header-ul {
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(135,173,185,0.7);
+    line-height: 5vh;
+    flex-direction: column;
+    align-items: center;
+  }
   .typing {
     font-size: 20px;
     margin: 27vh 0 0 5%;
