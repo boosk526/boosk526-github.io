@@ -301,6 +301,11 @@
     margin: 0 auto;
     background-color: #394855;
   }
+  .pf-img>img {
+    margin: 22vh 0 0 0;
+    float: right;
+    box-shadow: 5px 5px 10px #9BAEBC;
+  }
   .pf-view {
     margin: 15vh auto 0;
   }
